@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfApplication", "WcfApplication\WcfApplication.csproj", "{B653BF66-F4A2-4B0B-873B-1773DF244379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNumberClient", "MagicNumberClient\MagicNumberClient.csproj", "{50DEBFBD-98E5-4F9E-962C-96007AB36793}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B653BF66-F4A2-4B0B-873B-1773DF244379} = {B653BF66-F4A2-4B0B-873B-1773DF244379}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B653BF66-F4A2-4B0B-873B-1773DF244379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B653BF66-F4A2-4B0B-873B-1773DF244379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B653BF66-F4A2-4B0B-873B-1773DF244379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B653BF66-F4A2-4B0B-873B-1773DF244379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DEBFBD-98E5-4F9E-962C-96007AB36793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DEBFBD-98E5-4F9E-962C-96007AB36793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DEBFBD-98E5-4F9E-962C-96007AB36793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DEBFBD-98E5-4F9E-962C-96007AB36793}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E1ACFC5-7E48-4B1C-B604-BBE3559B1597}
+	EndGlobalSection
+EndGlobal
